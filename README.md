@@ -20,13 +20,15 @@ The "Google-Photos-Space-Finder" project offers a convenient way to identify sto
 If your Google Photos interface is in a language other than English, you may need to customize the target strings to match the specific language. Open the script.js file and modify the targetString1 and targetString2 variables accordingly. Save the changes.
 
 ### Step 2: Open Google Photos and Developer Console
-Log in to your Google Photos account using your preferred web browser. Press Ctrl + Shift + J (Windows/Linux) or Cmd + Option + J (Mac) to open the Developer Console in your web browser.
+Log in to your Google Photos account using your preferred browser and open all the pages that allow you to browse the photos you want to search (these could be albums, archives, or search results; the pages should display the photos in a way that allows you to navigate between them using the left and right arrow keys). Press Ctrl + Shift + J (Windows/Linux) or Cmd + Option + J (Mac) to open the browser's developer console.
+![image](https://github.com/rsps1008/Google-Photos-Space-Finder/blob/main/01.png)
 
 ### Step 3: Copy and Paste the Script
 Copy the entire content of the script.js file from the cloned repository and paste it into the Developer Console. Press Enter to execute the script. The tool will now start iterating through your Google Photos library, looking for photos that occupy storage space.
 
 ### Step 4: Wait for the Results
 The script will automatically click through your photos and pause periodically to ensure proper page updates. If a photo occupying storage space is found, an alert will pop up notifying you of the discovery.
+![image](https://github.com/rsps1008/Google-Photos-Space-Finder/blob/main/02.png)
 
 
 ## Caution and Responsiblity
@@ -53,14 +55,15 @@ Use the "Google-Photos-Space-Finder" tool responsibly and comply with Google's t
 如果你的 Google 相簿介面不是英語，可能需要自定義目標字串以適應特定語言。打開 script.js 文件，根據需要修改 targetString1 和 targetString2 變數，保存更改。
 
 ### 步驟 2: 打開 Google 相簿和開發者控制台
-使用你喜歡的瀏覽器登入 Google 相簿帳戶。按下 Ctrl + Shift + J (Windows/Linux) 或 Cmd + Option + J (Mac) 打開瀏覽器的開發者控制台。
+使用你喜歡的瀏覽器登入 Google 相簿帳戶，並開啟所有可以瀏覽想搜尋的照片頁面(可以是相簿、封存或是搜尋結果，頁面必須進入相片瀏覽並可以左右鍵切換相片)。按下 Ctrl + Shift + J (Windows/Linux) 或 Cmd + Option + J (Mac) 打開瀏覽器的開發者控制台。
+![image](https://github.com/rsps1008/Google-Photos-Space-Finder/blob/main/01.png)
 
 ### 步驟 3: 複製並粘貼腳本
 從複製的儲存庫中複製 script.js 文件的整個內容，並將其粘貼到開發者控制台。按 Enter 鍵執行腳本。現在，工具將開始遍歷 Google 相簿，尋找佔用儲存空間的照片。
 
 ### 步驟 4: 等待結果
 腳本會自動點擊照片，並定時暫停以確保頁面更新。如果找到佔用空間的照片，將彈出警示通知你。
-
+![image](https://github.com/rsps1008/Google-Photos-Space-Finder/blob/main/02.png)
 
 ## 注意事項和責任
 請負責任地使用 "Google-Photos-Space-Finder" 工具，遵守 Google 的服務條款。請記住，您對腳本的使用負有責任。請謹慎使用，以避免意外後果。
