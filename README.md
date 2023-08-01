@@ -58,7 +58,7 @@ Use the "Google-Photos-Space-Finder" tool responsibly and comply with Google's t
 ### 步驟 3: 複製並粘貼腳本
 從複製的儲存庫中複製 script.js 文件的整個內容，並將其粘貼到開發者控制台。按 Enter 鍵執行腳本。現在，工具將開始遍歷 Google 相簿，尋找佔用儲存空間的照片。
 
-###### 步驟 4: 等待結果
+### 步驟 4: 等待結果
 腳本會自動點擊照片，並定時暫停以確保頁面更新。如果找到佔用空間的照片，將彈出警示通知你。
 
 
